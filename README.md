@@ -1,6 +1,8 @@
 ## Smart ToDo App
+
 =========
 Welcome to Smart ToDo! This app allows users to input the name of an item and it categorizes it into one of five groups:
+
 - To Watch
 - To Eat
 - To Read
@@ -12,17 +14,21 @@ Users first must register and login at the welcome page. Once logged in, users w
 ## Getting Started
 
 1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`
-2. Update the .env file with your correct local information 
-  - username: `labber` 
-  - password: `labber` 
-  - database: `midterm`
-  - GOOGLE_KEY: ` ` (for API searches)
+2. Update the .env file with your correct local information
+
+- username: `labber`
+- password: `labber`
+- database: `midterm`
+- GOOGLE_KEY: ` ` (for API searches) (for example: GOOGLE_KEY=AIzaSyAFk77d4oq8fMHwjlidpyqj7MmDiXOev6E)
+
 3. Install dependencies: `npm i`
 4. Fix to binaries for sass: `npm rebuild node-sass`
 5. Reset database: `npm run db:reset`
-  - Check the db folder to see what gets created and seeded in the SDB
+6. Check the db folder to see what gets created and seeded in the SDB
 7. Run the server: `npm run local`
-  - Note: nodemon is used, so you should not have to restart your server
+
+- Note: nodemon is used, so you should not have to restart your server
+
 8. Visit `http://localhost:8080/`
 
 ## Dependencies
