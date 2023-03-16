@@ -49,6 +49,6 @@ Users first must register and login at the welcome page. Once logged in, users w
 
 ## Screenshots
 
-![Welcome page](https://github.com/ErikAndersonWebDev/Smart-TODO/blob/master/docs/Welcome.jpg?raw=true)
-![Update profile and hover over a task](https://github.com/ErikAndersonWebDev/Smart-TODO/blob/master/docs/Update%20profile.jpg?raw=true)
-![Dropdown menu for changing category](https://github.com/ErikAndersonWebDev/Smart-TODO/blob/master/docs/New%20task%20and%20change%20category.jpg?raw=true)
+![Welcome page](https://github.com/SinaSS77/SmartToDoList/blob/master/docs/Welcome.jpg)
+![Update profile and hover over a task](https://github.com/SinaSS77/SmartToDoList/blob/master/docs/Update%20profile.jpg)
+![Dropdown menu for changing category](https://github.com/SinaSS77/SmartToDoList/blob/master/docs/New%20task%20and%20change%20category.jpg)
