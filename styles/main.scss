@@ -20,7 +20,7 @@ header i {
 .header {
   height: 5em;
   background-color: #13678a;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   width: 100%;
   padding: 10px;
   gap: 10px;
@@ -65,10 +65,9 @@ header i {
 }
 
 #updateBt:hover {
-  box-shadow: 2px 5px 10px #45C4B0;
+  box-shadow: 2px 5px 10px #45c4b0;
   font-weight: 500;
 }
-
 
 .sub {
   background-color: #f25f46;
@@ -83,7 +82,7 @@ header i {
 }
 
 .sub:hover {
-  box-shadow: 2px 5px 10px #45C4B0;
+  box-shadow: 2px 5px 10px #45c4b0;
   font-weight: 500;
 }
 
@@ -91,13 +90,13 @@ header i {
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
 }
 //++++++++++++++++++++++++++++++++++++++++   Main
 main {
   height: 100%;
   display: flex;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 200;
   flex-direction: row;
 }
@@ -184,7 +183,7 @@ main {
   cursor: pointer;
 }
 .submit:hover {
-  box-shadow: 2px 5px 10px #45C4B0;
+  box-shadow: 2px 5px 10px #45c4b0;
   font-weight: 500;
 }
 .newTask {
@@ -192,7 +191,6 @@ main {
   font-weight: 500;
   font-size: 22px;
   color: #4e4e4e;
-
 }
 .taskForm {
   display: flex;
@@ -211,11 +209,11 @@ main {
   justify-items: center;
   resize: none;
 }
-
+///////////////////////////////////////////////////////////Perfect
 .taskForm textarea:focus {
   outline: none;
 }
-
+////////////////////////////////////////////////////////////
 #pushPlus {
   margin: 40px 30px;
   padding-left: 17px;
@@ -238,9 +236,9 @@ input {
   resize: none;
 }
 
-input:focus {
-  outline: none;
-}
+// input:focus {
+//   outline: none;
+// }
 
 .update-profile {
   font-weight: 500;
@@ -260,12 +258,12 @@ article {
   width: 90%;
   padding-left: 10px;
   font-size: 18px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: auto;
   margin-top: 20px;
   height: 5em;
   border: none;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   align-items: center;
   justify-content: center;
   display: grid;
@@ -274,22 +272,21 @@ article {
 }
 
 article i:hover {
-  text-shadow: 2px 5px 10px #45C4B0;
-  color: #F25F46;
+  text-shadow: 2px 5px 10px #45c4b0;
+  color: #f25f46;
 }
 
 .taskArticle {
   padding-left: 20px;
 }
 
-
 .taskArticle:hover {
-  box-shadow: 2px 5px 10px #45C4B0;
+  box-shadow: 2px 5px 10px #45c4b0;
 }
 .dropdown-content {
   position: absolute;
   z-index: 99999;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 200;
   background-color: #e4f2e7;
   display: flex;
@@ -306,10 +303,10 @@ article i:hover {
 }
 
 .dropdown-content span:hover {
-  color: #F25F46;
+  color: #f25f46;
   font-weight: 500;
 }
-
+////////////////////////////////////////////////perfect
 .fa-regular.fa-circle-xmark {
   opacity: 0;
   transition: all 500ms ease-in-out;
@@ -325,28 +322,28 @@ article i:hover {
 
 .taskArticle:hover > .fa-circle-xmark {
   display: block;
-  opacity: 1.0;
+  opacity: 1;
   color: #45c4b0;
   display: flex;
   justify-content: flex-end;
 }
 
 .fa-regular.fa-circle-xmark:hover {
-  color: #13678A;
+  color: #13678a;
   display: flex;
   justify-content: flex-end;
 }
 
 .taskArticle:hover > .fa-folder {
   display: block;
-  opacity: 1.0;
+  opacity: 1;
   color: #45c4b0;
   display: flex;
   justify-content: flex-end;
 }
 
 .fa-regular.fa-folder:hover {
-  color: #13678A;
+  color: #13678a;
   display: flex;
   justify-content: flex-end;
 }

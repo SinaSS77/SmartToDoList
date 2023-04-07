@@ -15,7 +15,7 @@ app.set("view engine", "ejs");
 
 // Load the logger first so all (static) HTTP requests are logged to STDOUT
 // 'dev' = Concise output colored by response status for development use.
-//         The :status token will be colored red for server error codes, yellow for client error codes, cyan for redirection codes, and uncolored for all other codes.
+//  The :status token will be colored red for server error codes, yellow for client error codes, cyan for redirection codes, and uncolored for all other codes.
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
@@ -34,10 +34,9 @@ app.use(
     keys: ["abcEasyAs123"],
   })
 );
-  app.use(express.static('public'));
-  // Separated Routes for each Resource
-  //api/category/endpoint
-  // Note: Endpoints that return data (eg. JSON) usually start with `/api`
+// Separated Routes for each Resource
+//api/category/endpoint
+// Note: Endpoints that return data (eg. JSON) usually start with `/api`
 const tasksRoutes = require('./routes/tasks_api');
 app.use('/api/tasks', tasksRoutes);
 
@@ -47,10 +46,6 @@ const homeRoutes = require("./routes/home");
 
 app.use("/", welcomeRoutes(db));
 app.use("/index", homeRoutes(db));
-
-// Home page
-// Warning: avoid creating more routes in this file!
-// Separate them into separate routes files (see above).
 
 //LISTENER
 app.listen(PORT, () => {
