@@ -1,4 +1,3 @@
-// REGISTER /GET /POST
 const express = require("express");
 const { DatabaseError } = require("pg");
 const router = express.Router();
@@ -12,6 +11,7 @@ module.exports = (db) => {
     }
     return res.render("welcome");
   });
+  
   ///////////////Helper functions /////////////
   const getUserWithEmail = function(email) {
     return db.query(`SELECT * FROM users WHERE users.email = $1;`, [email])

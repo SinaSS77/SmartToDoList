@@ -4,7 +4,6 @@ require("dotenv").config();
 // Web server config
 const sassMiddleware = require("./lib/sass-middleware");
 const express = require("express");
-const morgan = require("morgan");
 const db = require("./db/connection");
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 8080;
